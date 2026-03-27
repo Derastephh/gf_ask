@@ -52,7 +52,7 @@ export const LandingScreen = ({ onStart }) => {
                     whileTap={{ scale: 0.98 }}
                     className="rounded-2xl bg-gradient-to-r from-fuchsia-500 to-cyan-500 px-8 py-3 text-lg font-bold text-white shadow-lg hover:shadow-xl transition"
                 >
-                    Let's Go
+                    Fine, I’ll try it
                 </motion.button>
 
                 <motion.p
