@@ -5,8 +5,7 @@ import { VIBES } from "../../data/gameData";
 export const VibeStage = ({ selectedVibe, onVibeSelect }) => {
     return (
         <div className="space-y-3">
-            {/* PERSONALIZE: This opening sets the tone. Make it feel like it's about them specifically. */}
-            <p className="text-slate-100 text-sm italic">Choose the vibe that feels most like us right now. This will shape what comes next.</p>
+            <p className="text-slate-100 text-sm italic">Pick a vibe. It'll shape how this plays out.</p>
             <div className="grid gap-3 md:grid-cols-2">
                 {VIBES.map((vibe) => (
                     <motion.button
@@ -48,8 +47,7 @@ export const VibeStage = ({ selectedVibe, onVibeSelect }) => {
                     animate={{ opacity: 1, height: "auto" }}
                     className="rounded-lg border border-white/10 bg-white/5 p-3 text-xs text-slate-200"
                 >
-                    {/* PERSONALIZE: Reference how their choice connects to something you know about them */}
-                    ✓ Perfect. Your {VIBES.find((v) => v.id === selectedVibe)?.label} energy sets the tone for what's ahead.
+                    ✓ {VIBES.find((v) => v.id === selectedVibe)?.label} it is. Let's continue.
                 </motion.div>
             )}
         </div>

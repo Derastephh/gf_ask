@@ -20,8 +20,7 @@ export const UnlockStage = ({ unlockedFragments, onUnlock }) => {
                 </div>
             </div>
 
-            {/* PERSONALIZE: This text appears at the top. Make it feel like the moment before you share something vulnerable. */}
-            <p className="text-sm text-slate-100 italic">These are words I've been wanting to say to you. Unlock each one to hear my heart.</p>
+            <p className="text-sm text-slate-100 italic">Five locked messages. Tap to reveal what's inside.</p>
 
             {/* Fragment cards grid */}
             <div className="space-y-3 my-6">
@@ -128,14 +127,13 @@ export const UnlockStage = ({ unlockedFragments, onUnlock }) => {
                         transition={{ delay: 0.5 }}
                     >
                         <p className="text-lg font-bold text-rose-100 mb-2">
-                            {/* PERSONALIZE: Transition phrase just before the reveal */}
-                            Now you know exactly how I feel.
+                            You unlocked all five.
                         </p>
                         <p className="text-sm text-rose-200 mb-4">
-                            Everything has been leading to this moment.
+                            Now we're getting somewhere interesting.
                         </p>
                         <p className="text-xs text-rose-300/70">
-                            One more thing to ask you...
+                            There's one final thing waiting.
                         </p>
                     </motion.div>
 

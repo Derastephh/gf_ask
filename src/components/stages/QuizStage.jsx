@@ -22,10 +22,10 @@ export const QuizStage = ({ currentQuestion, quizAnswers, onAnswer }) => {
                 </div>
             </div>
 
-            {/* PERSONALIZE: This text appears below the progress. Make it feel conversational and warm. */}
+            {/* Curious opener on first question */}
             {currentQuestion === 0 && (
                 <p className="text-sm text-slate-200 italic mb-2">
-                    Just a few questions to remind me why you're so special to me...
+                    Quick personality check. Answer what feels right.
                 </p>
             )}
 
