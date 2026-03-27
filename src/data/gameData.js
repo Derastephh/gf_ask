@@ -37,32 +37,31 @@ export const VIBES = [
 // =====================
 // Stage 2: Quiz Questions
 // =====================
-// These questions help me remind myself why you're so special to me.
 // PERSONALIZE: Consider tailoring the answers to match actual preferences you know about them.
 export const QUIZ_QUESTIONS = [
     {
         id: "cozy-spot",
-        question: "Where do you feel most at peace with me?",
+        question: "Where do you feel most at ease?",
         emoji: "🛋️",
-        answers: ["Wrapped up together indoors", "Out in nature, just us", "At a quiet cafe", "Exploring somewhere new"],
+        answers: ["Cozy indoors with soft textures", "Out in nature", "A quiet cafe", "Somewhere new to explore"],
     },
     {
         id: "comfort-snack",
         question: "What small thing always makes you smile?",
         emoji: "🍫",
-        answers: ["Something sweet and indulgent", "A refreshing bite", "Something warm and comforting", "Sharing a treat"],
+        answers: ["Something sweet and indulgent", "A refreshing bite", "Something warm and comforting", "A favorite treat"],
     },
     {
         id: "free-afternoon",
-        question: "How would your perfect afternoon with me look?",
+        question: "What does your perfect afternoon look like?",
         emoji: "☀️",
-        answers: ["Creating or building something", "Getting lost somewhere new", "Quiet time talking and laughing", "An adventure or activity"],
+        answers: ["Creating or building something", "Getting lost somewhere new", "Quiet time with a good book or music", "An adventure or activity"],
     },
     {
         id: "surprise",
-        question: "What kind of surprise would make your heart skip a beat?",
+        question: "What kind of surprise would delight you?",
         emoji: "🎁",
-        answers: ["Something thoughtful I planned", "An unexpected adventure", "A moment of pure connection", "Your favorite thing done perfectly"],
+        answers: ["Something thoughtfully chosen", "An unexpected adventure", "A moment of genuine laughter", "Your favorite thing done perfectly"],
     },
     {
         id: "setting",
@@ -72,65 +71,58 @@ export const QUIZ_QUESTIONS = [
     },
     {
         id: "celebrate",
-        question: "How do you want to celebrate the big moments?",
+        question: "How do you celebrate big moments?",
         emoji: "🎉",
-        answers: ["Intimate, just us", "Wild and joyful", "Calm and meaningful", "Bold and adventurous"],
+        answers: ["Intimate and close", "Wild and joyful", "Calm and meaningful", "Bold and adventurous"],
     },
 ];
 
 // =====================
 // Stage 3: Memory Card Game
 // =====================
-// Each pair celebrates a way you make me feel. Match them to remind yourself how seen you are.
 export const MEMORY_CARDS = [
-    { id: 0, pairId: "pair-1", emoji: "😊", word: "Understood" },
-    { id: 1, pairId: "pair-1", emoji: "😊", word: "Understood" },
-    { id: 2, pairId: "pair-2", emoji: "✨", word: "Radiant" },
-    { id: 3, pairId: "pair-2", emoji: "✨", word: "Radiant" },
-    { id: 4, pairId: "pair-3", emoji: "🎶", word: "Comfortable" },
-    { id: 5, pairId: "pair-3", emoji: "🎶", word: "Comfortable" },
-    { id: 6, pairId: "pair-4", emoji: "💫", word: "Home" },
-    { id: 7, pairId: "pair-4", emoji: "💫", word: "Home" },
+    { id: 0, pairId: "pair-1", emoji: "😊", word: "Sunny" },
+    { id: 1, pairId: "pair-1", emoji: "😊", word: "Sunny" },
+    { id: 2, pairId: "pair-2", emoji: "✨", word: "Spark" },
+    { id: 3, pairId: "pair-2", emoji: "✨", word: "Spark" },
+    { id: 4, pairId: "pair-3", emoji: "🎶", word: "Cozy" },
+    { id: 5, pairId: "pair-3", emoji: "🎶", word: "Cozy" },
+    { id: 6, pairId: "pair-4", emoji: "💫", word: "Chill" },
+    { id: 7, pairId: "pair-4", emoji: "💫", word: "Chill" },
 ];
 
 // =====================
 // Stage 4: Message Fragments
 // =====================
-// PERSONALIZE: These are your most important moments to shine. Make each one deeply true for them.
-// Fragment 1 should be playful and easy (show they make you laugh effortlessly)
-// Fragment 2 should become personal (about moments of pure presence together)
-// Fragment 3 should deepen (show emotional growth with them)
-// Fragment 4 should warm (describe the blend of all they are to you)
-// Fragment 5 should be your most heartfelt commitment (the "forever" moment)
 export const MESSAGE_FRAGMENTS = [
     {
         id: "frag-1",
         emoji: "😄",
-        text: "You make me laugh in ways only you can—without even trying.",
+        text: "Your humor has this way of catching people off guard. It's effortless.",
         tone: "playful",
     },
     {
         id: "frag-2",
         emoji: "☕",
-        text: "I love those quiet moments with you. No phones, no plans—just us existing together feeling completely enough.",
+        text: "Being around you feels uncomplicated. Like things just make sense.",
         tone: "personal",
     },
     {
         id: "frag-3",
         emoji: "🌙",
-        text: "You've changed what I'm capable of feeling. You make me want to be braver, kinder, and more myself.",
+        text: "You have this way of making me notice things differently. Making me want to be better.",
         tone: "personal",
     },
     {
         id: "frag-4",
         emoji: "💝",
-        text: "You're my favorite adventure, my favorite place to rest, my favorite reason to come home.",
+        text: "I keep finding new things about you that surprise me. Different sides. All interesting.",
         tone: "warm",
     },
     {
         id: "frag-5",
         emoji: "✨",
-        text: "I want to build a life where we choose each other every single day. Where you know, completely, that you're loved.",
+        text: "There's something I've been wanting to say. Something worth the risk. Time to tell you.",
         tone: "warm",
     },
 ];

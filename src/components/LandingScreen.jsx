@@ -30,7 +30,7 @@ export const LandingScreen = ({ onStart }) => {
                     transition={{ delay: 0.25, duration: 0.5 }}
                     className="text-lg sm:text-xl text-slate-200 mb-6"
                 >
-                    Something special is waiting. But first, I want to remind myself why you mean so much to me.
+                    I built something random. Let's see what happens.
                 </motion.p>
 
                 <motion.p
@@ -39,7 +39,7 @@ export const LandingScreen = ({ onStart }) => {
                     transition={{ delay: 0.4, duration: 0.5 }}
                     className="text-sm text-slate-400 mb-8"
                 >
-                    Trust me on this one. Just a few moments of your time—it's worth it.
+                    Quick. Fun. Slightly confusing. You'll see.
                 </motion.p>
 
                 <motion.button
@@ -52,7 +52,7 @@ export const LandingScreen = ({ onStart }) => {
                     whileTap={{ scale: 0.98 }}
                     className="rounded-2xl bg-gradient-to-r from-fuchsia-500 to-cyan-500 px-8 py-3 text-lg font-bold text-white shadow-lg hover:shadow-xl transition"
                 >
-                    Start Journey
+                    Let's Go
                 </motion.button>
 
                 <motion.p
